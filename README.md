@@ -69,7 +69,6 @@ Accuracy is a commonly used metric in machine learning, but it requires a cutoff
 
 On the other hand, the AUC_ROC (Area Under the Receiver Operating Characteristic Curve) is a powerful metric that measures the performance of a binary classification model without the need for a cutoff value. It takes into account the sensitivity and specificity of the model across all possible cutoff values, providing a comprehensive view of the model's performance. This makes it a great metric for comparing models and selecting the best one for a given task.
 
-AUC_ROC in TEST SET =  
-0.9519041831171319
+AUC_ROC in TEST SET =  0.9519041831171319
 
 
