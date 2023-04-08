@@ -104,8 +104,8 @@ Accuracy in TEST SET =  0.8822
 ## Secundary metric:
 
 
-The dataset used for this project is balanced, with 53.7% in the train set. As a result, rare effects of accuracy are not a concern.
+The dataset used for this project is balanced, with 53.7% new products in the train set. As a result, rare effects of accuracy are not a concern.
 
-While accuracy is a commonly used metric in machine learning, it requires a cutoff value to be defined, which can be time-consuming during the development stage. The choice of the cutoff value can have a significant impact on the accuracy of the model, and in some cases, it may not be obvious which value to choose.
+While accuracy is a commonly used metric in machine learning, it requires a cutoff value to be defined, which can be time-consuming during the development stage. The choice of the cutoff value can have a significant impact on the accuracy of the model, and in some cases.
 
-On the other hand, the AUC_ROC (Area Under the Receiver Operating Characteristic Curve) is a powerful metric that measures the performance of a binary classification model without the need for a cutoff value. It takes into account the sensitivity and specificity of the model across all possible cutoff values, providing a comprehensive view of the model's performance. This makes it a great metric for comparing models and selecting the best one for a given task.
+On the other hand, the AUC_ROC (Area Under the Receiver Operating Characteristic Curve) is a powerful metric that measures the performance of a binary classification model without the need for a cutoff value. It takes into account the sensitivity and specificity of the model across all possible cutoff values, providing a comprehensive view of the model's performance. This makes it a great metric for comparing models and selecting the best one for a given task in balanced dataset scenario.
