@@ -7,7 +7,7 @@
 from step0_read           import build_dataset
 from step1_preproc        import step01_preproc
 from step2_warranty       import step02_waranty_transform
-from stpe3_replibtunning  import step03_replib_train , step04_replib_predict
+from step3_replibtunning  import step03_replib_train , step04_replib_predict
 from step4_finaldataset   import step04_clean_dataframes
 from step5_modeltrainning import step05_model_train
 from sklearn.metrics      import accuracy_score
