@@ -27,6 +27,8 @@ Enable some virtual env with required packages:
 `step4_finaldataset.py`: Remove unsed filds
 `step5_modeltrainning.py`: Train final model
 
+Avaible in `/programs` folder
+
 ## Steps to run program:
 
 All modules, including `model_new_vs_used_v1.py` should be in the same directory as the input dataset.
