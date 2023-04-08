@@ -12,13 +12,15 @@ The tasks involved in this project include data analysis, designing, processing,
 
 ## Pre-reqs:
 
-The project requires a virtual environment with the required packages. To enable the virtual environment, run the following command:
+The project requires a virtual environment with the required packages (see requirement.txt). To enable the virtual environment, run the following command:
 
 `virtualenv --python=/usr/bin/python3 venv`
 
 To activate the virtual environment, run the following command:
 
 `source venv/bin/activate`
+
+
 
 
 ## Modules:
