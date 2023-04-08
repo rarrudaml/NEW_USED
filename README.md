@@ -14,23 +14,34 @@ The tasks involved in this project include data analysis, designing, processing,
 
 The project requires a virtual environment with the required packages. To enable the virtual environment, run the following command:
 
-virtualenv --python=/usr/bin/python3 venv
+`virtualenv --python=/usr/bin/python3 venv`
 
 To activate the virtual environment, run the following command:
 
-source venv/bin/activate
+`source venv/bin/activate`
+
 
 ## Modules:
 
-`model_new_vs_used_v1.py`: Contain __main__ function. This program load other modules necessary
-`step0_read.py`: import datasets (train, test)
-`step1_preproc`: feature engineering module. Mainly focused in obtain features from dict objects
-`step2_warranty.py`: Build an embedding of words to waaranty filed
-`stpe3_replibtunning.py`: Train an RF using Replib transform of item field
-`step4_finaldataset.py`: Remove unsed filds
-`step5_modeltrainning.py`: Train final model
+The program contains the following modules:
 
-Avaible in `/programs` folder
+`model_new_vs_used_v1.py`: The main function that loads other necessary modules.
+
+`step0_read.py`: Imports datasets (train, test).
+
+`step1_preproc`: A feature engineering module that obtains features from dict objects.
+
+`step2_warranty.py`: Builds an embedding of words to the warranty field.
+
+`step3_replibtunning.py`: Trains an RF using the Replib transform of the item field.
+
+`step4_finaldataset.py`: Removes unused fields.
+
+`step5_modeltrainning.py`: Trains the final model.
+
+All modules are available in the `/programs` folder.
+
+
 
 ## Steps to run program:
 
