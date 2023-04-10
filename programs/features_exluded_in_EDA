@@ -1,0 +1,25 @@
+feature:   exclusion criteria
+sub_status:   high null proportion
+base_price:   high correlation w price
+site_id:   low variance
+listing_source:   high null proportion
+parent_item_id:   miss concept understanding
+coverage_areas:   high null proportion
+descriptions:   miss concept understanding
+international_delivery_mode:   high null proportion
+pictures:   bivariate
+id:   id
+official_store_id:   high null proportion
+differential_pricing:   high null proportion
+thumbnail:   bivariate
+secure_thumbnail:   bivariate
+catalog_product_id:   high null proportion
+subtitle:   high null proportion
+seller_address_country_name:   low variance
+seller_address_country_id:   low variance
+seller_address_state_name:   choose correlated feature
+seller_address_city_name:   choose correlated feature
+shipping_methods:   high null proportion
+shipping_tags:   high null proportion
+shipping_dimensions:   high null proportion
+shipping_free_methods:   high null proportion
